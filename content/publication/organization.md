@@ -3,7 +3,7 @@ title = "Organization of In-hospital cardiac arrest"
 date = 2015-09-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["KG Lauridsen", "AS Schmidt"]
+authors = ["KG Lauridsen", "AS Schmidt", "et. al."]
 
 # Publication type.
 # Legend:
@@ -17,8 +17,8 @@ authors = ["KG Lauridsen", "AS Schmidt"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Signal Image Technology & Internet Systems (SITIS)*, IEEE."
-publication_short = "In *SITIS*"
+publication = "In *Resuscitation*."
+publication_short = "In *Resuscitation*"
 
 # Abstract and optional shortened version.
 abstract = ""
@@ -33,18 +33,11 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
+projects = []
 
 # Links (optional).
 url_pdf = "http://arxiv.org/pdf/1512.04133v1"
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
+
 
 # Does the content use math formatting?
 math = true
@@ -59,5 +52,3 @@ image = ""
 caption = ""
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

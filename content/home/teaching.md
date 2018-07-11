@@ -15,14 +15,12 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+I am currently teaching following courses at [**Aarhus University**](http://phd.health.au.dk/):
 
-I am a teaching instructor for the following courses at University X:
+- Basic Life Support and AED use for Medical Students
+- Introduction to Clinical Medcine and Skills for Medical Students
+- Introduction to *R* for Research Fellows in Clinical Sciences
+- Cardiovascular Disease and dyslipidaemia for Clinical Dietists
+- Introduction to the PhD programme at Health, Aarhus University
+- Motivation for Student Research in Medicine, Health, Aarhus University 
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science

@@ -1,12 +1,12 @@
 +++
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
-title = "Welcome to the PhD study"
-time_start = 2018-09-01T13:00:00
-time_end = 2018-09-01T15:00:00
-abstract = ""
+title = "Motivational Talk: Why persue Student Research?"
+time_start = 2017-09-10T13:00:00
+time_end = 2017-09-10T13:00:00
+abstract = "What motivates a pregraduate to do research?"
 abstract_short = ""
-event = "PhD programme, Health, Aarhus University"
+event = "Health, Aarhus University"
 event_url = "https://example.org"
 location = "Aarhus, Denmark"
 

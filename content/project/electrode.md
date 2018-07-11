@@ -3,20 +3,20 @@
 date = 2016-04-27T00:00:00
 
 # Project title.
-title = "External Project"
+title = "ELECTRODE: Electrode position for cardioversion"
 
 # Project summary to display on homepage.
-summary = "An example of linking directly to an external project website using `external_link`."
+summary = "Randomized Trial"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "boards.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["demo"]
+tags = ["AF-Research"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://example.org"
+external_link = "http://au.dk"
 
 # Does the project detail page use math formatting?
 math = false
