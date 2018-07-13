@@ -5,26 +5,17 @@
     
     <url>
     
+      <loc>/post/sample/</loc>
+      <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/test/</loc>
       <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/test-r-markdown/</loc>
-      <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/my-view-on-clinical-trial-design-and-sample-sizes/</loc>
-      <lastmod>2018-07-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -162,26 +153,6 @@
     <url>
     
       <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/clinical-trials/</loc>
-      <lastmod>2018-07-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/clinical-trials/</loc>
-      <lastmod>2018-07-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

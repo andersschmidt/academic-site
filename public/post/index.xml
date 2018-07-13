@@ -13,30 +13,21 @@
     
     
     <item>
+      <title>Sample</title>
+      <link>/post/sample/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sample/</guid>
+      <description>On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study.</description>
+    </item>
+    
+    <item>
       <title>Test</title>
       <link>/post/test/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/test/</guid>
       <description>Test post</description>
-    </item>
-    
-    <item>
-      <title>test R markdown </title>
-      <link>/post/test-r-markdown/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/test-r-markdown/</guid>
-      <description>test &amp;lt;- c(&amp;quot;test&amp;quot;)</description>
-    </item>
-    
-    <item>
-      <title>My view on: Clinical trial design and sample sizes </title>
-      <link>/post/my-view-on-clinical-trial-design-and-sample-sizes/</link>
-      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/my-view-on-clinical-trial-design-and-sample-sizes/</guid>
-      <description>On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study.</description>
     </item>
     
   </channel>

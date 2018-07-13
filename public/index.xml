@@ -11,31 +11,11 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Test</title>
-      <link>/post/test/</link>
+      <title>Sample</title>
+      <link>/post/sample/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/test/</guid>
-      <description>&lt;p&gt;Test post&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>test R markdown </title>
-      <link>/post/test-r-markdown/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/test-r-markdown/</guid>
-      <description>&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;test &amp;lt;- c(&amp;quot;test&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My view on: Clinical trial design and sample sizes </title>
-      <link>/post/my-view-on-clinical-trial-design-and-sample-sizes/</link>
-      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/my-view-on-clinical-trial-design-and-sample-sizes/</guid>
+      <guid>/post/sample/</guid>
       <description>&lt;p&gt;On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study. Conventional randomized trials are designed so that they will provide a meaningful answer on its own (definitive stand-alone study), adresses a superiority question, allocates patients in a 1:1 ratio to two parallel study groups.&lt;a href=&#34;Cook%20et%20al.,%20*Trials*,%202015.&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;choosing-the-best-primary-endpoint&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Choosing the best primary endpoint&lt;/h1&gt;
@@ -70,6 +50,16 @@
 ## NOTE: n is number in *each* group&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;[2]: Beaton DE, Boers M, Wells GA. Many faces of the minimal clinically important difference (MICD): A literature review and directions for future research. Curr Opin Rheumatol. 2002;14:109–14&lt;/p&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>/post/test/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>&lt;p&gt;Test post&lt;/p&gt;
 </description>
     </item>
     
