@@ -9,7 +9,7 @@ title = "ELECTRODE: Electrode position for cardioversion"
 summary = "Randomized Trial"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "aed.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -22,4 +22,3 @@ external_link = "http://au.dk"
 math = false
 
 +++
-
