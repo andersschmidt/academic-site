@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anders Sjørslev Schmidt on Anders Sjørslev Schmidt</title>
+    <link>/</link>
+    <description>Recent content in Anders Sjørslev Schmidt on Anders Sjørslev Schmidt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test</title>
+      <link>/post/test/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>&lt;p&gt;Test post&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test R markdown </title>
+      <link>/post/test-r-markdown/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test-r-markdown/</guid>
+      <description>&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;test &amp;lt;- c(&amp;quot;test&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My view on: Clinical trial design and sample sizes </title>
+      <link>/post/my-view-on-clinical-trial-design-and-sample-sizes/</link>
+      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/my-view-on-clinical-trial-design-and-sample-sizes/</guid>
+      <description>&lt;p&gt;On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study. Conventional randomized trials are designed so that they will provide a meaningful answer on its own (definitive stand-alone study), adresses a superiority question, allocates patients in a 1:1 ratio to two parallel study groups.&lt;a href=&#34;Cook%20et%20al.,%20*Trials*,%202015.&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;choosing-the-best-primary-endpoint&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Choosing the best primary endpoint&lt;/h1&gt;
+&lt;p&gt;Since the sample size estimation and the conclusion of the study is based on what was choosen as primary endpoint it is of outmost importance to deside on the primary endpoint a priori. Also, the endpoint must be meaningful to clinicians, so that the results can be implemented in practise and provide not just evidence but useful information. The primary endpoint must be a variable were it is meaningful to calculate and detect a difference, i.e. &lt;strong&gt;effect size&lt;/strong&gt;. One must deside on choosing an endpoint that is realistic to clinicians or an endpoint that is realistic to the current evidence and in-line with previous studies. Ideal the endpoint is realistic to both. As a further guidance the principe of “the minimal difference important to patients.”[2]&lt;/p&gt;
+&lt;p&gt;For the cardioversion trials we desided on using &lt;strong&gt;cardioversion outcome&lt;/strong&gt; since it provides crusial benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It a variable, were a difference can be meassured and is clinical meaningful&lt;/li&gt;
+&lt;li&gt;It a dicotomous outcome, which is very robust, and can be documented on an electrocardiogram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the individual trials a taget difference must be determined.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sample-size-estimation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Sample size estimation&lt;/h1&gt;
+&lt;p&gt;For estimating the trial size I used the &lt;code&gt;power.prop.test&lt;/code&gt; function in &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;power.prop.test(p1 = 0.95, 
+                p2 = 0.85, 
+                sig.level = 0.05,
+                power = 0.80, 
+                alternative = c(&amp;quot;two.sided&amp;quot;),
+                n = NULL
+                )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##      Two-sample comparison of proportions power calculation 
+## 
+##               n = 140.0951
+##              p1 = 0.95
+##              p2 = 0.85
+##       sig.level = 0.05
+##           power = 0.8
+##     alternative = two.sided
+## 
+## NOTE: n is number in *each* group&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;[2]: Beaton DE, Boers M, Wells GA. Many faces of the minimal clinically important difference (MICD): A literature review and directions for future research. Curr Opin Rheumatol. 2002;14:109–14&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cardioversion Efficacy Using Pulsed Biphasic or Biphasic Truncated Exponential Waveforms: A Randomized Clinical Trial</title>
+      <link>/publication/jaha-study/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/jaha-study/</guid>
+      <description>
+
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt; Several different defibrillators are currently used for cardioversion and defibrillation of cardiac arrhythmias. The efficacy of a novel pulsed biphasic (PB) waveform has not been compared to other biphasic waveforms. Accordingly, this study aims to compare the efficacy and safety of PB shocks with biphasic truncated exponential (BTE) shocks in patients undergoing cardioversion of atrial fibrillation or ‐flutter.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Methods and Results&lt;/strong&gt; This prospective, randomized study included patients admitted for elective direct current cardioversion. Patients were randomized to receive cardioversion using either PB or BTE shocks. We used escalating shocks until sinus rhythm was obtained or to a maximum of 4 shocks. Patients randomized to PB shocks received 90, 120, 150, and 200 J and patients randomized to BTE shocks received 100, 150, 200, and 250 J, as recommended by the manufacturers. In total, 69 patients (51%) received PB shocks and 65 patients (49%) BTE shocks. Successful cardioversion, defined as sinus rhythm 4 hours after cardioversion, was achieved in 43 patients (62%) using PB shocks and in 56 patients (86%) using BTE shocks; ratio 1.4 (95% CI 1.1–1.7) (P=0.002). There was no difference in safety (ie, myocardial injury judged by changes in high‐sensitive troponin I levels; ratio 1.1) (95% CI 1.0–1.3), P=0.15. The study was terminated prematurely because of an adverse event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusions&lt;/strong&gt; Cardioversion using a BTE waveform was more effective when compared with a PB waveform. There was no difference in safety between the 2 waveforms, as judged by changes in troponin I levels.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clinical Trial Registration&lt;/strong&gt; URL: &lt;a href=&#34;http://www.clinicaltrials.gov&#34; target=&#34;_blank&#34;&gt;http://www.clinicaltrials.gov&lt;/a&gt;. Unique identifier: NCT02317029.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motivational Talk: Why persue Student Research?</title>
+      <link>/talk/motivation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/motivation/</guid>
+      <description>&lt;p&gt;I will provide further details as deadline proceeds.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to the PhD study</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description>&lt;p&gt;I will provide further details as deadline proceeds.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CHESS: Cardioversion Energy Settings</title>
+      <link>/project/chess/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/chess/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ELECTRODE: Electrode position for cardioversion</title>
+      <link>/project/electrode/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/electrode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organization of In-hospital cardiac arrest</title>
+      <link>/publication/organization/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/organization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Anders Sjørslev Schmidt</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Anders Sjørslev Schmidt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>/post/test/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>Test post</description>
+    </item>
+    
+    <item>
+      <title>test R markdown </title>
+      <link>/post/test-r-markdown/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test-r-markdown/</guid>
+      <description>test &amp;lt;- c(&amp;quot;test&amp;quot;)</description>
+    </item>
+    
+    <item>
+      <title>My view on: Clinical trial design and sample sizes </title>
+      <link>/post/my-view-on-clinical-trial-design-and-sample-sizes/</link>
+      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/my-view-on-clinical-trial-design-and-sample-sizes/</guid>
+      <description>On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study.</description>
+    </item>
+    
+  </channel>
+</rss>
