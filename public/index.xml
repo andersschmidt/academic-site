@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anders Sjørslev Schmidt on Anders Sjørslev Schmidt</title>
-    <link>/</link>
+    <link>https://andersschmidt.netlify.com/</link>
     <description>Recent content in Anders Sjørslev Schmidt on Anders Sjørslev Schmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,74 +11,31 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Sample</title>
-      <link>/post/sample/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/sample/</guid>
-      <description>&lt;p&gt;On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study. Conventional randomized trials are designed so that they will provide a meaningful answer on its own (definitive stand-alone study), adresses a superiority question, allocates patients in a 1:1 ratio to two parallel study groups.&lt;a href=&#34;Cook%20et%20al.,%20*Trials*,%202015.&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
-&lt;div id=&#34;choosing-the-best-primary-endpoint&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Choosing the best primary endpoint&lt;/h1&gt;
-&lt;p&gt;Since the sample size estimation and the conclusion of the study is based on what was choosen as primary endpoint it is of outmost importance to deside on the primary endpoint a priori. Also, the endpoint must be meaningful to clinicians, so that the results can be implemented in practise and provide not just evidence but useful information. The primary endpoint must be a variable were it is meaningful to calculate and detect a difference, i.e. &lt;strong&gt;effect size&lt;/strong&gt;. One must deside on choosing an endpoint that is realistic to clinicians or an endpoint that is realistic to the current evidence and in-line with previous studies. Ideal the endpoint is realistic to both. As a further guidance the principe of “the minimal difference important to patients.”[2]&lt;/p&gt;
-&lt;p&gt;For the cardioversion trials we desided on using &lt;strong&gt;cardioversion outcome&lt;/strong&gt; since it provides crusial benefits:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;It a variable, were a difference can be meassured and is clinical meaningful&lt;/li&gt;
-&lt;li&gt;It a dicotomous outcome, which is very robust, and can be documented on an electrocardiogram&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For the individual trials a taget difference must be determined.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;sample-size-estimation&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Sample size estimation&lt;/h1&gt;
-&lt;p&gt;For estimating the trial size I used the &lt;code&gt;power.prop.test&lt;/code&gt; function in &lt;em&gt;R&lt;/em&gt;:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;power.prop.test(p1 = 0.95, 
-                p2 = 0.85, 
-                sig.level = 0.05,
-                power = 0.80, 
-                alternative = c(&amp;quot;two.sided&amp;quot;),
-                n = NULL
-                )&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-##      Two-sample comparison of proportions power calculation 
-## 
-##               n = 140.0951
-##              p1 = 0.95
-##              p2 = 0.85
-##       sig.level = 0.05
-##           power = 0.8
-##     alternative = two.sided
-## 
-## NOTE: n is number in *each* group&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;[2]: Beaton DE, Boers M, Wells GA. Many faces of the minimal clinically important difference (MICD): A literature review and directions for future research. Curr Opin Rheumatol. 2002;14:109–14&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Test</title>
-      <link>/post/test/</link>
+      <link>https://andersschmidt.netlify.com/post/test/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/test/</guid>
+      <guid>https://andersschmidt.netlify.com/post/test/</guid>
       <description>&lt;p&gt;Test post&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>/privacy/</link>
+      <link>https://andersschmidt.netlify.com/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
       
-      <guid>/privacy/</guid>
+      <guid>https://andersschmidt.netlify.com/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cardioversion Efficacy Using Pulsed Biphasic or Biphasic Truncated Exponential Waveforms: A Randomized Clinical Trial</title>
-      <link>/publication/jaha-study/</link>
+      <link>https://andersschmidt.netlify.com/publication/jaha-study/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
       
-      <guid>/publication/jaha-study/</guid>
+      <guid>https://andersschmidt.netlify.com/publication/jaha-study/</guid>
       <description>
 
 &lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
@@ -95,30 +52,30 @@
     
     <item>
       <title>Motivational Talk: Why persue Student Research?</title>
-      <link>/talk/motivation/</link>
+      <link>https://andersschmidt.netlify.com/talk/motivation/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/motivation/</guid>
+      <guid>https://andersschmidt.netlify.com/talk/motivation/</guid>
       <description>&lt;p&gt;I will provide further details as deadline proceeds.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Welcome to the PhD study</title>
-      <link>/talk/example-talk/</link>
+      <link>https://andersschmidt.netlify.com/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/example-talk/</guid>
+      <guid>https://andersschmidt.netlify.com/talk/example-talk/</guid>
       <description>&lt;p&gt;I will provide further details as deadline proceeds.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>CHESS: Cardioversion Energy Settings</title>
-      <link>/project/chess/</link>
+      <link>https://andersschmidt.netlify.com/project/chess/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/project/chess/</guid>
+      <guid>https://andersschmidt.netlify.com/project/chess/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -133,19 +90,19 @@
     
     <item>
       <title>ELECTRODE: Electrode position for cardioversion</title>
-      <link>/project/electrode/</link>
+      <link>https://andersschmidt.netlify.com/project/electrode/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/project/electrode/</guid>
+      <guid>https://andersschmidt.netlify.com/project/electrode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Organization of In-hospital cardiac arrest</title>
-      <link>/publication/organization/</link>
+      <link>https://andersschmidt.netlify.com/publication/organization/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
       
-      <guid>/publication/organization/</guid>
+      <guid>https://andersschmidt.netlify.com/publication/organization/</guid>
       <description></description>
     </item>
     

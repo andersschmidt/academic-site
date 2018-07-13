@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/post/sample/</loc>
+      <loc>https://andersschmidt.netlify.com/post/test/</loc>
       <lastmod>2018-07-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,16 +14,7 @@
     
     <url>
     
-      <loc>/post/test/</loc>
-      <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/privacy/</loc>
+      <loc>https://andersschmidt.netlify.com/privacy/</loc>
       <lastmod>2018-06-28T00:00:00+02:00</lastmod>
     </url>
     
@@ -32,7 +23,7 @@
     
     <url>
     
-      <loc>/publication/jaha-study/</loc>
+      <loc>https://andersschmidt.netlify.com/publication/jaha-study/</loc>
       <lastmod>2017-07-01T00:00:00+02:00</lastmod>
     </url>
     
@@ -41,7 +32,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>https://andersschmidt.netlify.com/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -50,7 +41,7 @@
     
     <url>
     
-      <loc>/talk/motivation/</loc>
+      <loc>https://andersschmidt.netlify.com/talk/motivation/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -59,7 +50,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://andersschmidt.netlify.com/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -68,7 +59,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://andersschmidt.netlify.com/publication/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -77,7 +68,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://andersschmidt.netlify.com/talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -86,7 +77,7 @@
     
     <url>
     
-      <loc>/talk/example-talk/</loc>
+      <loc>https://andersschmidt.netlify.com/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -95,7 +86,7 @@
     
     <url>
     
-      <loc>/project/chess/</loc>
+      <loc>https://andersschmidt.netlify.com/project/chess/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -104,7 +95,7 @@
     
     <url>
     
-      <loc>/project/electrode/</loc>
+      <loc>https://andersschmidt.netlify.com/project/electrode/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -113,7 +104,7 @@
     
     <url>
     
-      <loc>/publication/organization/</loc>
+      <loc>https://andersschmidt.netlify.com/publication/organization/</loc>
       <lastmod>2015-09-01T00:00:00+02:00</lastmod>
     </url>
     
@@ -122,7 +113,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>https://andersschmidt.netlify.com/publication_types/2/</loc>
       <lastmod>2017-07-01T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -132,7 +123,7 @@
     
     <url>
     
-      <loc>/tags/af-research/</loc>
+      <loc>https://andersschmidt.netlify.com/tags/af-research/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -142,7 +133,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://andersschmidt.netlify.com/</loc>
       <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -152,7 +143,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://andersschmidt.netlify.com/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -161,7 +152,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>https://andersschmidt.netlify.com/project/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -171,7 +162,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>https://andersschmidt.netlify.com/publication_types/</loc>
       <lastmod>2017-07-01T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -181,7 +172,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://andersschmidt.netlify.com/tags/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
