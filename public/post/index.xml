@@ -13,16 +13,6 @@
     
     
     <item>
-      <title>new post</title>
-      <link>/post/new-post/</link>
-      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/new-post/</guid>
-      <description>Post it
-a post</description>
-    </item>
-    
-    <item>
       <title>My notes on - Effect size and sample size estimations for clinical trials</title>
       <link>/post/sample/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>

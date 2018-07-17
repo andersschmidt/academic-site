@@ -11,18 +11,6 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>new post</title>
-      <link>/post/new-post/</link>
-      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/new-post/</guid>
-      <description>&lt;p&gt;Post it&lt;/p&gt;
-
-&lt;p&gt;a post&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>My notes on - Effect size and sample size estimations for clinical trials</title>
       <link>/post/sample/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
