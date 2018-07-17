@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anders Sjørslev Schmidt on Anders Sjørslev Schmidt</title>
-    <link>https://andersschmidt.netlify.com/</link>
+    <link>/</link>
     <description>Recent content in Anders Sjørslev Schmidt on Anders Sjørslev Schmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,31 +11,70 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Test</title>
-      <link>https://andersschmidt.netlify.com/post/test/</link>
+      <title>My notes on effect size and sample size estimations for clinical trials</title>
+      <link>/post/sample/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/post/test/</guid>
-      <description>&lt;p&gt;Test post&lt;/p&gt;
+      <guid>/post/sample/</guid>
+      <description>&lt;p&gt;On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study. Conventional randomized trials are designed so that they will provide a meaningful answer on its own (definitive stand-alone study), adresses a superiority question, allocates patients in a 1:1 ratio to two parallel study groups.(1)&lt;/p&gt;
+&lt;div id=&#34;choosing-the-best-primary-endpoint&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Choosing the best primary endpoint&lt;/h1&gt;
+&lt;p&gt;Since the sample size estimation and the conclusion of the study is based on what was choosen as primary endpoint it is of outmost importance to deside on the primary endpoint a priori. Also, the endpoint must be meaningful to clinicians, so that the results can be implemented in practise and provide not just evidence but useful information. The primary endpoint must be a variable were it is meaningful to calculate and detect a difference, i.e. &lt;strong&gt;effect size&lt;/strong&gt;. One must deside on choosing an endpoint that is realistic to clinicians or an endpoint that is realistic to the current evidence and in-line with previous studies. Ideal the endpoint is realistic to both. As a further guidance the principe of “the minimal difference important to patients.”(2) Consequently, even a minimal difference can be relevant, when the endpoint is e.g. deaths (mortality) or major cardiovascular events.&lt;/p&gt;
+&lt;p&gt;For cardioversion trials the endpoint is often “cardioversion efficacy”, i.e. the proportion of patients with a successful treatment outcome. This endpoint has many advantages and we desided on using &lt;strong&gt;cardioversion outcome&lt;/strong&gt; since it provides crusial benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It a variable, were a difference can be meassured and is clinical meaningful&lt;/li&gt;
+&lt;li&gt;It a dicotomous outcome, which is very robust, and can be documented on an electrocardiogram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then, for the individual trials a taget difference must be determined.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sample-size-estimation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Sample size estimation&lt;/h1&gt;
+&lt;p&gt;For estimating the trial size I use the &lt;code&gt;power.prop.test&lt;/code&gt; function in &lt;em&gt;R&lt;/em&gt;. Considering a hypothesis where the estimated success in the control group is 85% and 95% in the experimental group, i.e. an effect size of 10%.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;power.prop.test(p1 = 0.95,                      #p1 = proportion in control group
+                p2 = 0.85,                      #p2 = propottion in the experimental group
+                sig.level = 0.05,               #choose significance level, standard is 0.05 (alfa value)
+                power = 0.80,                   #choose power (beta value)
+                alternative = c(&amp;quot;two.sided&amp;quot;),   
+                n = NULL
+                )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##      Two-sample comparison of proportions power calculation 
+## 
+##               n = 140.0951
+##              p1 = 0.95
+##              p2 = 0.85
+##       sig.level = 0.05
+##           power = 0.8
+##     alternative = two.sided
+## 
+## NOTE: n is number in *each* group&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Cook JA, Hislop J, Altman DG, et al. Specifying the target difference in the primary outcome for a randomised controlled trial: guidance for researchers. Trials. 2015;16(1). &lt;a href=&#34;doi:10.1186/s13063-014-0526-8&#34; class=&#34;uri&#34;&gt;doi:10.1186/s13063-014-0526-8&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Beaton DE, Boers M, Wells GA. Many faces of the minimal clinically important difference (MCID): a literature review and directions for future research. Current Opinion in Rheumatology. 2002;14(2):109.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://andersschmidt.netlify.com/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/privacy/</guid>
+      <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cardioversion Efficacy Using Pulsed Biphasic or Biphasic Truncated Exponential Waveforms: A Randomized Clinical Trial</title>
-      <link>https://andersschmidt.netlify.com/publication/jaha-study/</link>
+      <link>/publication/jaha-study/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/publication/jaha-study/</guid>
+      <guid>/publication/jaha-study/</guid>
       <description>
 
 &lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
@@ -52,30 +91,30 @@
     
     <item>
       <title>Motivational Talk: Why persue Student Research?</title>
-      <link>https://andersschmidt.netlify.com/talk/motivation/</link>
+      <link>/talk/motivation/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/talk/motivation/</guid>
+      <guid>/talk/motivation/</guid>
       <description>&lt;p&gt;I will provide further details as deadline proceeds.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Welcome to the PhD study</title>
-      <link>https://andersschmidt.netlify.com/talk/example-talk/</link>
+      <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/talk/example-talk/</guid>
+      <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;I will provide further details as deadline proceeds.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>CHESS: Cardioversion Energy Settings</title>
-      <link>https://andersschmidt.netlify.com/project/chess/</link>
+      <link>/project/chess/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/project/chess/</guid>
+      <guid>/project/chess/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -90,19 +129,19 @@
     
     <item>
       <title>ELECTRODE: Electrode position for cardioversion</title>
-      <link>https://andersschmidt.netlify.com/project/electrode/</link>
+      <link>/project/electrode/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/project/electrode/</guid>
+      <guid>/project/electrode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Organization of In-hospital cardiac arrest</title>
-      <link>https://andersschmidt.netlify.com/publication/organization/</link>
+      <link>/publication/organization/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/publication/organization/</guid>
+      <guid>/publication/organization/</guid>
       <description></description>
     </item>
     

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Anders Sjørslev Schmidt</title>
-    <link>https://andersschmidt.netlify.com/publication/</link>
+    <link>/publication/</link>
     <description>Recent content in Publications on Anders Sjørslev Schmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://andersschmidt.netlify.com/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cardioversion Efficacy Using Pulsed Biphasic or Biphasic Truncated Exponential Waveforms: A Randomized Clinical Trial</title>
-      <link>https://andersschmidt.netlify.com/publication/jaha-study/</link>
+      <link>/publication/jaha-study/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/publication/jaha-study/</guid>
+      <guid>/publication/jaha-study/</guid>
       <description>Abstract Background Several different defibrillators are currently used for cardioversion and defibrillation of cardiac arrhythmias. The efficacy of a novel pulsed biphasic (PB) waveform has not been compared to other biphasic waveforms. Accordingly, this study aims to compare the efficacy and safety of PB shocks with biphasic truncated exponential (BTE) shocks in patients undergoing cardioversion of atrial fibrillation or ‐flutter.
 Methods and Results This prospective, randomized study included patients admitted for elective direct current cardioversion.</description>
     </item>
     
     <item>
       <title>Organization of In-hospital cardiac arrest</title>
-      <link>https://andersschmidt.netlify.com/publication/organization/</link>
+      <link>/publication/organization/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/publication/organization/</guid>
+      <guid>/publication/organization/</guid>
       <description></description>
     </item>
     

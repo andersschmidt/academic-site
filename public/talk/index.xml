@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Anders Sjørslev Schmidt</title>
-    <link>https://andersschmidt.netlify.com/talk/</link>
+    <link>/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Anders Sjørslev Schmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://andersschmidt.netlify.com/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Motivational Talk: Why persue Student Research?</title>
-      <link>https://andersschmidt.netlify.com/talk/motivation/</link>
+      <link>/talk/motivation/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/talk/motivation/</guid>
+      <guid>/talk/motivation/</guid>
       <description>I will provide further details as deadline proceeds.</description>
     </item>
     
     <item>
       <title>Welcome to the PhD study</title>
-      <link>https://andersschmidt.netlify.com/talk/example-talk/</link>
+      <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://andersschmidt.netlify.com/talk/example-talk/</guid>
+      <guid>/talk/example-talk/</guid>
       <description>I will provide further details as deadline proceeds.</description>
     </item>
     
