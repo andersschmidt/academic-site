@@ -16,6 +16,64 @@
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/sample/</guid>
+      <description>&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study. Conventional randomized trials are designed so that they will provide a meaningful answer on its own (definitive stand-alone study), adresses a superiority question, allocates patients in a 1:1 ratio to two parallel study groups.(1)&lt;/p&gt;
+&lt;div id=&#34;choosing-the-best-primary-endpoint&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Choosing the best primary endpoint&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;since-the-sample-size-estimation-and-the-conclusion-of-the-study-is-based-on-what-was-choosen-as-primary-endpoint-it-is-of-outmost-importance-to-deside-on-the-primary-endpoint-a-priori.-also-the-endpoint-must-be-meaningful-to-clinicians-so-that-the-results-can-be-implemented-in-practise-and-provide-not-just-evidence-but-useful-information.-the-primary-endpoint-must-be-a-variable-were-it-is-meaningful-to-calculate-and-detect-a-difference-i.e.-effect-size.-one-must-deside-on-choosing-an-endpoint-that-is-realistic-to-clinicians-or-an-endpoint-that-is-realistic-to-the-current-evidence-and-in-line-with-previous-studies.-ideal-the-endpoint-is-realistic-to-both.-as-a-further-guidance-the-principe-of-the-minimal-difference-important-to-patients.2-consequently-even-a-minimal-difference-can-be-relevant-when-the-endpoint-is-e.g.deaths-mortality-or-major-cardiovascular-events.&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Since the sample size estimation and the conclusion of the study is based on what was choosen as primary endpoint it is of outmost importance to deside on the primary endpoint a priori. Also, the endpoint must be meaningful to clinicians, so that the results can be implemented in practise and provide not just evidence but useful information. The primary endpoint must be a variable were it is meaningful to calculate and detect a difference, i.e. &lt;strong&gt;effect size&lt;/strong&gt;. One must deside on choosing an endpoint that is realistic to clinicians or an endpoint that is realistic to the current evidence and in-line with previous studies. Ideal the endpoint is realistic to both. As a further guidance the principe of “the minimal difference important to patients.”(2) Consequently, even a minimal difference can be relevant, when the endpoint is e.g. deaths (mortality) or major cardiovascular events.&lt;/h1&gt;
+&lt;p&gt;On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study. Conventional randomized trials are designed so that they will provide a meaningful answer on its own (definitive stand-alone study), adresses a superiority question, allocates patients in a 1:1 ratio to two parallel study groups.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;choosing-the-best-primary-endpoint-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Choosing the best primary endpoint&lt;/h1&gt;
+&lt;p&gt;Since the sample size estimation and the conclusion of the study is based on what was choosen as primary endpoint it is of outmost importance to deside on the primary endpoint a priori. Also, the endpoint must be meaningful to clinicians, so that the results can be implemented in practise and provide not just evidence but useful information. The primary endpoint must be a variable were it is meaningful to calculate and detect a difference, i.e. &lt;strong&gt;effect size&lt;/strong&gt;. One must deside on choosing an endpoint that is realistic to clinicians or an endpoint that is realistic to the current evidence and in-line with previous studies. Ideal the endpoint is realistic to both. As a further guidance the principe of “the minimal difference important to patients.” &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 1e06dd418cda2dd956f3b04609829e6c96ff2fe0&lt;/p&gt;
+&lt;p&gt;For cardioversion trials the endpoint is often “cardioversion efficacy”, i.e. the proportion of patients with a successful treatment outcome. This endpoint has many advantages and we desided on using &lt;strong&gt;cardioversion outcome&lt;/strong&gt; since it provides crusial benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It a variable, were a difference can be meassured and is clinical meaningful&lt;/li&gt;
+&lt;li&gt;It a dicotomous outcome, which is very robust, and can be documented on an electrocardiogram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then, for the individual trials a taget difference must be determined.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sample-size-estimation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Sample size estimation&lt;/h1&gt;
+&lt;p&gt;For estimating the trial size I use the &lt;code&gt;power.prop.test&lt;/code&gt; function in &lt;em&gt;R&lt;/em&gt;. Considering a hypothesis where the estimated success in the control group is 85% and 95% in the experimental group, i.e. an effect size of 10%.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;power.prop.test(p1 = 0.95,                      #p1 = proportion in control group
+                p2 = 0.85,                      #p2 = propottion in the experimental group
+                sig.level = 0.05,               #choose significance level, standard is 0.05 (alfa value)
+                power = 0.80,                   #choose power (beta value)
+                alternative = c(&amp;quot;two.sided&amp;quot;),   
+                n = NULL
+                )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##      Two-sample comparison of proportions power calculation 
+## 
+##               n = 140.0951
+##              p1 = 0.95
+##              p2 = 0.85
+##       sig.level = 0.05
+##           power = 0.8
+##     alternative = two.sided
+## 
+## NOTE: n is number in *each* group&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&lt;/p&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Cook JA, Hislop J, Altman DG, et al. Specifying the target difference in the primary outcome for a randomised controlled trial: guidance for researchers. Trials. 2015;16(1). &lt;a href=&#34;doi:10.1186/s13063-014-0526-8&#34; class=&#34;uri&#34;&gt;doi:10.1186/s13063-014-0526-8&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Beaton DE, Boers M, Wells GA. Many faces of the minimal clinically important difference (MCID): a literature review and directions for future research. Current Opinion in Rheumatology. 2002;14(2):109.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;======= &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 1e06dd418cda2dd956f3b04609829e6c96ff2fe0&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My notes on effect size and sample size estimations for clinical trials</title>
+      <link>/post/sample/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sample/</guid>
       <description>&lt;p&gt;On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study. Conventional randomized trials are designed so that they will provide a meaningful answer on its own (definitive stand-alone study), adresses a superiority question, allocates patients in a 1:1 ratio to two parallel study groups.(1)&lt;/p&gt;
 &lt;div id=&#34;choosing-the-best-primary-endpoint&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Choosing the best primary endpoint&lt;/h1&gt;
@@ -56,6 +114,16 @@
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test2</title>
+      <link>/post/test/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>&lt;p&gt;Test post - more testing..and even more!&lt;/p&gt;
 </description>
     </item>
     
