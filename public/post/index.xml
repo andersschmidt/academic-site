@@ -13,12 +13,34 @@
     
     
     <item>
+      <title>My Summer of Data Science</title>
+      <link>/post/my-summer-of-data-science/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/my-summer-of-data-science/</guid>
+      <description>The summertime is upon us. Allright, in Denmark the summer has lasted for months already, which is very unusual. It kind of makes you think of Global Warming. During the summer I usual find some extra time to reflect on new learning goals in R, new packages to explore etc.
+Last year, I attended the UseR! conference in Brussels, so the strait-forward strategy will be to browse through the overwhelming amout of videos and materials fra this years conference in Brisbane.</description>
+    </item>
+    
+    <item>
       <title>My notes on - Effect size and sample size estimations for clinical trials</title>
       <link>/post/sample/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/sample/</guid>
       <description>On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study.</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website designer for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
+
+Key features:
+ Easily manage various content including homepage, blog posts, publications, talks, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Color Themes Academic is available in different color themes and font themes.</description>
     </item>
     
   </channel>
