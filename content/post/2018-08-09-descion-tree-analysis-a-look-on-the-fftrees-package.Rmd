@@ -1,0 +1,18 @@
+---
+title: 'Descion-tree analysis: A look on the FFTrees package'
+author: A Schmidt
+date: '2018-08-09'
+slug: descion-tree-analysis-a-look-on-the-fftrees-package
+categories:
+  - Data Science
+  - Statistics
+tags:
+  - DataScience
+  - rstats
+header:
+  caption: ''
+  image: ''
+draft: no
+---
+
+As medical doctors we use descions tree every day. Many observations from studies have been condensed to a clinical scoring system which aid the clinican in taking descions about further investigations on a given patient. 
