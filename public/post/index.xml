@@ -13,22 +13,22 @@
     
     
     <item>
+      <title>The Tableone package: Effiencent Table 1&#39;s for clinical studies</title>
+      <link>/post/the-tableone-package-effiencent-table-1-s-for-clinical-studies/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-tableone-package-effiencent-table-1-s-for-clinical-studies/</guid>
+      <description>Every randomized study need a Table 1 to summarize the characteristics of the included participants. The tables consist of multiple calculations of means with standard deviation, medians with quartiles or summarizes of categorical variables. This can however be very time consuming to calculate if done by hard. Especially, because you often want to make several subgroups etc.
+Some years ago I came across the R package tableone, which has now become my preffered tool for creating table 1’s.</description>
+    </item>
+    
+    <item>
       <title>Descion-tree analysis: A look on the FFTrees package</title>
       <link>/post/descion-tree-analysis-a-look-on-the-fftrees-package/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/descion-tree-analysis-a-look-on-the-fftrees-package/</guid>
       <description>As medical doctors we use descions tree every day. Many observations from studies have been condensed to a clinical scoring system which aid the clinican in taking descions about further investigations on a given patient.</description>
-    </item>
-    
-    <item>
-      <title>My Summer of Data Science</title>
-      <link>/post/my-summer-of-data-science/</link>
-      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/my-summer-of-data-science/</guid>
-      <description>The summertime is upon us. Allright, in Denmark the summer has lasted for months already, which is very unusual. It kind of makes you think of Global Warming. During the summer I usual find some extra time to reflect on new learning goals in R, new packages to explore etc.
-Last year, I attended the UseR! conference in Brussels, so the strait-forward strategy will be to browse through the overwhelming amout of videos and materials fra this years conference in Brisbane.</description>
     </item>
     
     <item>

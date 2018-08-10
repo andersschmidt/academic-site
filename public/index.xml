@@ -11,24 +11,54 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Tableone package: Effiencent Table 1&#39;s for clinical studies</title>
+      <link>/post/the-tableone-package-effiencent-table-1-s-for-clinical-studies/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-tableone-package-effiencent-table-1-s-for-clinical-studies/</guid>
+      <description>&lt;p&gt;Every randomized study need a Table 1 to summarize the characteristics of the included participants. The tables consist of multiple calculations of means with standard deviation, medians with quartiles or summarizes of categorical variables. This can however be very time consuming to calculate if done &lt;em&gt;by hard&lt;/em&gt;. Especially, because you often want to make several subgroups etc.&lt;/p&gt;
+&lt;p&gt;Some years ago I came across the &lt;em&gt;R&lt;/em&gt; package &lt;em&gt;tableone&lt;/em&gt;, which has now become my preffered tool for creating &lt;em&gt;table 1’s&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Firstly, the package must be installed and loaded into a &lt;em&gt;R&lt;/em&gt; session:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Install &amp;quot;tableone&amp;quot;, if not already installed and loaded:
+if (!require(&amp;quot;tableone&amp;quot;)) install.packages(&amp;quot;tableone&amp;quot;); library(tableone)
+#I also like to use the tidyverse packages to plot and analyse the data:
+if (!require(&amp;quot;tidyverse&amp;quot;)) install.packages(&amp;quot;tidyverse&amp;quot;); library(tidyverse)
+
+#Load some sample data, here the &amp;quot;iris&amp;quot; data set, or use your own data set:
+data(&amp;quot;iris&amp;quot;)
+attach(iris)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Take a look at the data set and determine how you would like to analyse the different variables. Use histograms, QQ-plots etc. to investigate the variables. The &lt;strong&gt;iris&lt;/strong&gt; data consist of 5 different variables, four are continous (length and width) and one is a categorical (species).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;a &amp;lt;- ggplot(iris, aes(iris$Sepal.Width)) + geom_histogram() + theme_classic()
+a + labs(x= &amp;quot;Sepal Width&amp;quot;, y=&amp;quot;&amp;quot;, title = &amp;quot;Sample plot&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-the-tableone-package-effiencent-table-1-s-for-clinical-studies_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(iris) + geom_qq(aes(sample = iris$Sepal.Width)) + theme_classic() + labs( x = &amp;quot;Sepal Width&amp;quot;, y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-10-the-tableone-package-effiencent-table-1-s-for-clinical-studies_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Choose which variables to include in table 1 (NB: All variables must be listed here)
+variables &amp;lt;- c(&amp;quot;Sepal.Width&amp;quot;, &amp;quot;Sepal.Length&amp;quot;, &amp;quot;Petal.Width&amp;quot;)
+#Which of the above chosen variables must be treated as a non-normal variable?
+non_normal &amp;lt;- c()
+
+#Use the argument strata for subgroups:
+mytableone &amp;lt;- tableone::CreateTableOne( data = iris, vars = variables, strata = &amp;quot;Species&amp;quot;)
+
+#Adjust the amount of digits, use of test and more:
+print(mytableone, nonnormal = non_normal, explain=TRUE, catDigits=1, contDigits=1, test=F)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                           Stratified by Species
+##                            setosa    versicolor virginica
+##   n                         50        50         50      
+##   Sepal.Width (mean (sd))  3.4 (0.4) 2.8 (0.3)  3.0 (0.3)
+##   Sepal.Length (mean (sd)) 5.0 (0.4) 5.9 (0.5)  6.6 (0.6)
+##   Petal.Width (mean (sd))  0.2 (0.1) 1.3 (0.2)  2.0 (0.3)&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Descion-tree analysis: A look on the FFTrees package</title>
       <link>/post/descion-tree-analysis-a-look-on-the-fftrees-package/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/descion-tree-analysis-a-look-on-the-fftrees-package/</guid>
       <description>&lt;p&gt;As medical doctors we use descions tree every day. Many observations from studies have been condensed to a clinical scoring system which aid the clinican in taking descions about further investigations on a given patient.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My Summer of Data Science</title>
-      <link>/post/my-summer-of-data-science/</link>
-      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/my-summer-of-data-science/</guid>
-      <description>&lt;p&gt;The summertime is upon us. Allright, in Denmark the summer has lasted for months already, which is very unusual. It kind of makes you think of Global Warming. During the summer I usual find some extra time to reflect on new learning goals in R, new packages to explore etc.&lt;/p&gt;
-
-&lt;p&gt;Last year, I attended the &lt;em&gt;UseR!&lt;/em&gt; conference in Brussels, so the strait-forward strategy will be to browse through the overwhelming amout of videos and materials fra this years conference in &lt;a href=&#34;/user2018.r-project.org&#34;&gt;Brisbane&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
