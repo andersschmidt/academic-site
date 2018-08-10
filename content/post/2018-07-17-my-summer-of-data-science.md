@@ -12,6 +12,7 @@ tags:
 summary: "Learning goals!"
 header:
         image: 'summer.jpg'
+draft: yes
 ---
 
 The summertime is upon us. Allright, in Denmark the summer has lasted for months already, which is very unusual. It kind of makes you think of Global Warming. During the summer I usual find some extra time to reflect on new learning goals in R, new packages to explore etc. 
