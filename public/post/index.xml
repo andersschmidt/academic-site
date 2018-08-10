@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Descion-tree analysis: A look on the FFTrees package</title>
+      <link>/post/descion-tree-analysis-a-look-on-the-fftrees-package/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/descion-tree-analysis-a-look-on-the-fftrees-package/</guid>
+      <description>As medical doctors we use descions tree every day. Many observations from studies have been condensed to a clinical scoring system which aid the clinican in taking descions about further investigations on a given patient.</description>
+    </item>
+    
+    <item>
       <title>My Summer of Data Science</title>
       <link>/post/my-summer-of-data-science/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
@@ -29,18 +38,6 @@ Last year, I attended the UseR! conference in Brussels, so the strait-forward st
       
       <guid>/post/sample/</guid>
       <description>On my way to design a third and fourth clinical trial I found it useful to reflect on the way the previous studies were designed and what considerations I have made. Randomized trials are only as good as they are designed - and important considerations must be made prior to the initiation of the project. Often recruitment of patients may last for years and therefore a careful plan is needed to enhance the scientific outcome of the study.</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/post/getting-started/</guid>
-      <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
-
-Key features:
- Easily manage various content including homepage, blog posts, publications, talks, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Color Themes Academic is available in different color themes and font themes.</description>
     </item>
     
   </channel>
