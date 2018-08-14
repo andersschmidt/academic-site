@@ -142,6 +142,33 @@ print(mytableone, nonnormal = non_normal, explain=TRUE, catDigits=1, contDigits=
     </item>
     
     <item>
+      <title>Clinical experience and skills of physicians in hospital cardiac arrest teams in Denmark: a nationwide study</title>
+      <link>/publication/clinical-skills/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/clinical-skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of hyperoxia on myocardial injury following cardioversion—A randomized clinical trial</title>
+      <link>/publication/oxy-study/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/oxy-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elevated calprotectin in patients with atrial fibrillation with and without heart failure</title>
+      <link>/publication/calprotectin/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/calprotectin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Motivational Talk: Why persue Student Research?</title>
       <link>/talk/motivation/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
@@ -185,6 +212,15 @@ print(mytableone, nonnormal = non_normal, explain=TRUE, catDigits=1, contDigits=
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>/project/electrode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hospital implementation of resuscitation guidelines and review of CPR training programmes: a nationwide study</title>
+      <link>/publication/edu-study/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/edu-study/</guid>
       <description></description>
     </item>
     
