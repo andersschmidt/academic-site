@@ -1,0 +1,18 @@
+---
+title: Can we predict cardioversion outcomes using copeptin? 
+author: Anders S. Schmidt, M.D.
+date: '2018-12-12'
+slug: copeptin
+categories: []
+tags:
+  - Atrial fibrillation
+header:
+  caption: ''
+  image: ''
+draft: yes
+summary: Copeptin study
+---
+
+# Can we predict it? 
+
+Yes we can. How is this possible? 
