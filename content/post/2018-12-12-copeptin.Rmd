@@ -10,9 +10,13 @@ header:
   caption: ''
   image: ''
 draft: no
-summary: Copeptin study
+summary: Cardioversion of atrial fibrillation - Can we predict success using copeptin? 
+
 ---
+# Supplementary data
+## PhD Day 2019 Abstract. Cardioversion of atrial fibrillation - Can we predict success using copeptin? 
 
-# Can we predict it? 
+Opdateres...
 
-Yes we can. How is this possible? 
+
+
