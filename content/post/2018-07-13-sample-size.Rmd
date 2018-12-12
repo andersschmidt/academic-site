@@ -30,8 +30,8 @@ For estimating the trial size I use the `power.prop.test` function in *R*. Consi
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
 
-power.prop.test(p1 = 0.95,                      #p1 = proportion in control group
-                p2 = 0.85,                      #p2 = propottion in the experimental group
+power.prop.test(p1 = 0.85,                      #p1 = proportion in control group
+                p2 = 0.95,                      #p2 = propottion in the experimental group
                 sig.level = 0.05,               #choose significance level, standard is 0.05 (alfa value)
                 power = 0.80,                   #choose power (beta value)
                 alternative = c("two.sided"),   

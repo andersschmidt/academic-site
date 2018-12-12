@@ -28,8 +28,8 @@ summary: Reflections on choosing the right endpoint and sample size for a clinic
 <div id="sample-size-estimation" class="section level1">
 <h1>Sample size estimation</h1>
 <p>For estimating the trial size I use the <code>power.prop.test</code> function in <em>R</em>. Considering a hypothesis where the estimated success in the control group is 85% and 95% in the experimental group, i.e. an effect size of 10%.</p>
-<pre class="r"><code>power.prop.test(p1 = 0.95,                      #p1 = proportion in control group
-                p2 = 0.85,                      #p2 = propottion in the experimental group
+<pre class="r"><code>power.prop.test(p1 = 0.85,                      #p1 = proportion in control group
+                p2 = 0.95,                      #p2 = propottion in the experimental group
                 sig.level = 0.05,               #choose significance level, standard is 0.05 (alfa value)
                 power = 0.80,                   #choose power (beta value)
                 alternative = c(&quot;two.sided&quot;),   
@@ -39,8 +39,8 @@ summary: Reflections on choosing the right endpoint and sample size for a clinic
 ##      Two-sample comparison of proportions power calculation 
 ## 
 ##               n = 140.0951
-##              p1 = 0.95
-##              p2 = 0.85
+##              p1 = 0.85
+##              p2 = 0.95
 ##       sig.level = 0.05
 ##           power = 0.8
 ##     alternative = two.sided

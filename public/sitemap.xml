@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>/post/sample/</loc>
+      <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/drug-repurposing-a-talk-by-james-harrison-cycle-pharma/</loc>
+      <lastmod>2018-08-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/the-tableone-package-effiencent-table-1-s-for-clinical-studies/</loc>
       <lastmod>2018-08-10T00:00:00+00:00</lastmod>
     </url>
@@ -131,6 +149,15 @@
     
     <url>
     
+      <loc>/project/af48/</loc>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/chess/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
@@ -218,6 +245,36 @@
     
       <loc>/tags/datascience/</loc>
       <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/drugs/</loc>
+      <lastmod>2018-08-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/medicine/</loc>
+      <lastmod>2018-08-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/medicine/</loc>
+      <lastmod>2018-08-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
